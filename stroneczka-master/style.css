@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  }
+body{
+    background-image: url("img/bcg.jpg");
+    background-size: cover;
+}
+.user{
+    position:absolute;
+    top: 2vh;
+    right: 8%;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 90px;
+    width: 350px;
+}
+.motto{
+    color: #2F4F4F;
+    font-size: 48px;
+}
+.p1{
+    position: absolute;
+    left:8%;
+    top: 12%;
+}
+.p2{
+    position: absolute;
+    left:13%;
+    top: 18%;
+}
+nav{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    top: 6vh;
+    right: 10vw;
+    left: 50vw;
+    background-color:  rgb(13, 73, 164);
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: 0.3s;
+    
+}
+nav ul li a:hover {
+    background-color:rgb(24, 97, 206); 
+}
+
+ 
+img{
+    height: 240px;
+    width: 240px;
+    border-radius: 20px;
+}
+.footer{
+    font-size: 40px;
+    padding: 0 10px;
+    color: black;
+}
+.i-user{
+    font-size: 22px;
+    padding: 0 6px;
+}
+.doctors{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    top: 250px;
+}
+.osoba1, .osoba2, .osoba3, .osoba4{
+    background-color: rgba(13, 73, 164, 0.9);
+    padding: 30px ;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.no-term, .term{
+    color: white;
+    background-color: rgba(173, 199, 231,0.7);
+    padding: 8px 50px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.bold{
+    font-weight: 700;
+    padding: 12px;
+}
+.click a{
+    position: absolute ;
+    display: flex;
+    font-size: 24px;
+    color: white;
+    background-color:  rgba(13, 73, 164, 0.9);
+    text-decoration: underline;
+    padding: 10px 90px;
+    border-radius: 20px;
+    bottom: 18%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+footer{
+  position: absolute ;
+  background-color: rgba(255,255,255,0.7);
+  color: #2F4F4F;
+  width: 100%;
+  padding: 30px 60px;
+  font-size: 18px;
+  bottom: 0%;
+}
+.column2, .column3, .column4, .column5{
+    position: absolute;
+    bottom: 0%;
+}
+.column2{
+    left: 20%;
+    padding: 30px 60px;
+
+}
+.column3{
+    left: 40%;
+    padding: 30px 60px 48px;
+}
+.column4{
+    left: 60%;
+    padding: 30px 60px 48px;
+
+}
+.column5{
+    left: 80%;
+    padding: 30px 60px;
+}
+.found_us{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.nfz{
+    position: absolute;
+    bottom: 3%;
+    color: rgba(0,0,0,0.5);
+}
+.nfz:hover {
+    color:rgba(0,0,0,0.9) ;
+}
+.fa-facebook-square {
+    transition: 0.2s;
+ }
+.fa-facebook-square:hover  {
+   color: #4e4e4e; 
+}
+
+.fa-instagram {
+    transition: 0.2s;
+}
+.fa-instagram:hover {
+    background-color:rgba(116, 112, 112, 0.2) ;
+}
+
+.fa-youtube {
+    transition: 0.2s;
+}
+.fa-youtube:hover {
+    color: #4e4e4e; 
+}
+/* second page */
+
+.wybor-osoba1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    top: 20%;
+    bottom: 20%;
+    left: 10%;
+    right: 66%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px ;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.confirm-button{
+    position:absolute;
+    bottom: 4%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color:  rgb(13, 73, 164);
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.confirm-button i{
+    font-size: 36px;
+    color: #6495ed;
+    padding: 0 20px;
+    
+}
+.visit{
+    position:absolute;
+    top: 15%;
+    bottom: 70%;
+    left: 40%;
+    right: 15%;
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+.bol{
+    font-weight: 700;
+}
+.img-doc{
+    position: absolute;
+    top: 5%;
+    height: 320px;
+    width: 320px;
+}
+.about{
+    position: absolute;
+    top: 60%;
+}
+.about p{
+    padding: 5px 0;
+}
+.important{
+    font-size: 24px;
+}
+.stars{
+    color: black;
+}
+.choose-term{
+    position: absolute;
+    top: 30%;
+    bottom: 5%;
+    left: 40%;
+    right: 15%;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px;
+    color: #3E3D3D;
+}
+.choose-term a{
+    position: relative;
+    display: block;
+    top: 94%;
+    font-size: 18px;
+    text-align: center;
+    color: #3E3D3D;
+
+}
+.choose-term .visit-type .which-visit{
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.67);
+}
+.choose-term a i{
+    padding: 0 10px;
+}
+.top{
+    position: relative;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom{
+    position: relative;
+    top: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.visit-type{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    left: 10%;
+    right: 10%;
+    align-items: center;
+    font-size: 34px;
+    top: 8%;
+    color: #4e4e4e;
+    
+}
+.which-visit{
+    background-color: rgba(109, 156, 226,0.28);
+    color: #3E3D3D;
+    border-radius: 20px;
+    padding: 8px 60px;
+    border:2px solid rgba(0, 0, 0, 0.3);
+    margin-left: 3%;
+}
+.date{
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    font-size: 30px;
+    color: #4e4e4e;
+}
+.fa-arrow-circle-left, .fa-arrow-circle-right{
+    position: absolute;
+    top: 34%;
+    font-size: 30px;
+    color: #949191;
+}
+.visit-type a .fa-chevron-down{
+    padding-left: 22px;
+}
+.fa-arrow-circle-right{
+    right: 10%;
+}
+.fa-arrow-circle-left{
+    left: 10%;
+}
+.fa-stethoscope{
+    padding-right:12px ;
+    color: #4e4e4e;
+}
+.days{
+    position: absolute;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    top: 31%;
+    left: 12%;
+    font-size: 26px;
+    width: 76%;
+
+}
+
+
+
+
+
+/* last page */
+
+.our-doc, .confirm{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.confirm{
+    padding: 20px ;
+    font-size: 40px;
+    top: 18%;
+    left: 30%;
+    right: 30%;
+    font-weight: normal;
+    text-align: center;
+}
+.our-doc{
+    padding: 50px 80px ;
+    top: 32%;
+    left: 10%;
+    right: 10%;
+    font-weight: 700;
+}
+.confirm-img-div img{
+    height: 360px;
+    width: 360px;
+}
+.text{
+    top: 15%;
+    font-size: 38px;
+    position: absolute;
+    left: 35%;
+    color: white;
+    text-align: center;
+}
+.text p{
+    padding: 10px;
+}
+
+.change-term{
+    color: #A1C4F6;
+    display: block;
+    text-align: right;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.last{
+    margin-bottom: 24px;
+}
+.cancel, .ok{
+    font-size: 23px;
+    background-color: rgba(196, 196, 196,0.7);
+    border-radius: 20px;
+    font-weight: normal;
+}
+.cancel{  
+    color: rgba(201, 13, 58,0.8);
+    padding: 8px 60px;
+    margin-right: 60px;
+}
+.ok{
+    color: #282EBA;
+    padding: 8px 47px;
+}
+.back-menu{
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    color: rgba(35, 44, 57,0.8);
+    font-size: 25px;
+}
+.back-menu a{
+    color: rgba(35, 44, 57,0.8);
+}
+
+.alert {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    color:rgba(35, 44, 57,0.8); 
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.back_ {
+    position: absolute;
+    top: 30%;
+    left: 20% ;
+    right: 20%;
+    color: rgba(35, 44, 57,0.9);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+@media (max-width: 1700px){
+    nav{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1550px){
+    nav{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1480px){
+    nav{
+        font-size: 16px;
+    }
+    .column5 i{
+        font-size: 34px;
+    }
+}
+@media (max-width: 1450px){
+    nav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        align-items: center;
+        align-content: space-around;
+        justify-content: space-around;
+        left: 65vw;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+@media (max-width: 1400px){
+    .column5 i{
+        font-size: 28px;
+    }
+    .column4{
+       padding: 30px 0 48px;
+    }
+}
+@media (max-width: 1310px){
+
+    .column5 i{
+        font-size: 24px;
+    }
+}
+
+/* CO TRZEBA ZROBIC: MINI UPDATE v2!!!!!
+
+DLA KAŻDEGO EKRANU:
+- DONE ---------------logo polmed przechodzi do home na kazdej stronie 
+- maria konopnicka powinna byc klikalna na kazdym ekranie -> a
+- dodac do nava hovera, zeby po najechaniu na dany napis zmieniał kolor tła (tak jak na figmie)
+- zrobić dla każdego ekranu, żeby strona była responsywna (tak jak na figmie)
+
+
+- pierwsza strona: po kliknieciu na wolne terminy przechodzi sie do nastepnej strony
+- druga strona: przycisk pokaz wiecej godzin pokazuje wiecej godzin, strzalki sa klikalne i pokazują inne tygodnie, konsultacja sie rozwija i sa inne typy wizyt,
+idk cozrobic z tym kalendarzem (on ma sie zmieniac czy wyjebane?), ogolnie ogarnac ten kalendarz (uwzglednic zeby kazdy byl dostepny w innych godzinach i ze 
+dorota nie jest dostepna 15-19.11)
+- trzecia strona: nw co zrobic z przyciskiem potwirdz wizyte (robimy cos z nim?), 
+
+ //////////////////////////////////////////////////////////////////////////
+ CO DODANE: 
+ - hiperlacza yt,insta,fb, nfz otwieraja sie w nowej karcie
+ - strona work_in_progress, jako odnosnik w miejscu gdzie niedokonczone elementy
+ -dodany nav hovera ale chujowo dziala to 
+ - dodany hover do stopki (fb,insta itd)
+ -podswietlany nfz
+ */
+
+
